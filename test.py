@@ -29,8 +29,8 @@ test_cases = [
 
 def test_leap_year_test_cases():
     for test_case in test_cases:
-        assignment_response = assignment(test_case['input'])
-        assert is_leap_year_response == test_case[
+        assignment_response = course_grader(test_case['input'])
+        assert assignment_response == test_case[
             'output'], f"""
 For
 \nInput:    {test_case['input']}

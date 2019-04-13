@@ -1,4 +1,4 @@
-# assignment_name
+# course_grader
 
 Write a course_grader function that takes a **list** of test scores as its *parameter*.
 
